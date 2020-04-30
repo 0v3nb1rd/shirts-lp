@@ -29,6 +29,7 @@
 }
 
 .products {
+  margin-bottom: 160px;
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -109,19 +110,5 @@
   &__desc-text {
     margin-bottom: 18px;
     text-align: center;
-  }
-  &__btn {
-    display: inline-block;
-    padding: 2px 30px;
-    padding-top: 7px;
-    text-transform: uppercase;
-    font-family: $titleFont;
-    font-size: 24px;
-    background-color: $bgblack;
-    color: $bgyellow;
-    &:hover {
-      background-color: $bgred;
-      color: #fff;
-    }
   }
 }
