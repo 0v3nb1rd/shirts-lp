@@ -1,0 +1,101 @@
+.footer {
+  margin-bottom: 115px;
+  &__container {
+    width: 1105px;
+  }
+}
+
+.site-menu {
+  margin-bottom: 115px;
+  &__sections {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__col {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__title {
+    margin-bottom: 24px;
+    font-family: $titleFont;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: $bgblack;
+  }
+  &__item {
+    margin-bottom: 15px;
+  }
+  &__link {
+    font-size: 15px;
+    color: #737373;
+    &:hover {
+      color: $bgred;
+    }
+  }
+  &__text {
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: $bgblack;
+  }
+  &__text-row {
+    display: block;
+    margin-bottom: 5px;
+    color: inherit;
+  }
+}
+
+.extras {
+  display: flex;
+  margin-bottom: 95px;
+  &__col {
+    flex: 1;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__best {
+    display: block;
+    padding: 39px 10%;
+    text-align: center;
+    color: #fff;
+    background: $bgblack;
+    font-size: 50px;
+    line-height: 1;
+    font-family: $titleFont;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__col-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: url("../images/dest/bg/pattern.png") center center / 500px;
+  }
+}
+
+.socials {
+  display: flex;
+  &__item {
+    margin-right: 50px;
+    :last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    display: block;
+    width: 38px;
+    height: 38px;
+    &:hover .socials__icon {
+      fill: $bgred;
+    }
+  }
+  &__icon {
+    width: 100%;
+    height: 100%;
+  }
+}
