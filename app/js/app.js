@@ -21,4 +21,33 @@ document.addEventListener("DOMContentLoaded", function () {
     if (idx + 1 > slides.length) idx = 0;
     slides[idx].classList.add(activeClass);
   }, 4000);
+
+  // Filter & Isotope plugin -->
+  const elem = document.querySelector(".products__list");
+  const iso = new Isotope(elem, {
+    itemSelector: ".products__item",
+    filter: ".popular",
+  });
+
+  const controllsFilter = document.querySelectorAll(".filter__link");
+  const activeClassFilter = "filter__item--active";
+  controllsFilter.forEach((ctr) => {
+    ctr.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const filterName = ctr.getAttribute("data-filter");
+
+      controllsFilter.forEach((link) => {
+        link.closest(".filter__item").classList.remove(activeClassFilter);
+      });
+
+      ctr.closest(".filter__item").classList.add(activeClassFilter);
+
+      iso.arrange({
+        filter: `.${filterName}`,
+      });
+    });
+  });
+
+  // Isotope plugin -->
 });
