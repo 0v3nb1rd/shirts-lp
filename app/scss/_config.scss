@@ -86,8 +86,13 @@ a {
 }
 
 .wrapper {
-  min-width: 1310px;
+  min-width: 1440px;
   overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1300px;
 }
 
 body {
@@ -98,11 +103,6 @@ body {
   color: $bgblack;
   -webkit-font-smoothing: antialiased;
   -moz-osx-smoothing: grayscale;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1300px;
 }
 
 .btn {

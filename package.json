@@ -4,10 +4,11 @@
   "description": "Start HTML Template based OptimizedHTML 5",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d app"
   },
   "author": "0v3nb1rd",
   "license": "ISC",
+  "homepage": "https://0v3nb1rd@github.io/shirts-lp",
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "browser-sync": "^2.26.7",
@@ -25,6 +26,7 @@
     "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "isotope-layout": "^3.0.6"
   }
 }

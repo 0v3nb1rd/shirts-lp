@@ -26,6 +26,10 @@
 .mail {
   text-align: center;
   color: inherit;
+  z-index: 1;
+  &:hover {
+    color: $bgred;
+  }
   &__title {
     margin-bottom: 3px;
   }
