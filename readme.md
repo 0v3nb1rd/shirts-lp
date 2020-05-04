@@ -7,8 +7,8 @@
 	<li>GULP</li>
 </ul>
 <b>Screenshots:</b>
-<div>
+<div style="width:200px">
 <a href="#">
-	<img style="width:200px;max-width:50%;height:auto" src="./app/images/dest/gh-pages/0v3nb1rd-github-io-shirts-lp.jpg" alt="screenshot-1"/>
+	<img style="max-width:50%;height:auto" src="./app/images/dest/gh-pages/0v3nb1rd-github-io-shirts-lp.jpg" alt="screenshot-1"/>
 </a>
 </div>
