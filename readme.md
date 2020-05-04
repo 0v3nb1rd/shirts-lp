@@ -9,6 +9,6 @@
 <b>Screenshots:</b>
 <div>
 <a href="#">
-	<img style="width:200px" src="./app/images/dest/gh-pages/0v3nb1rd-github-io-shirts-lp.jpg" alt="screenshot-1"/>
+	<img style="width:200px; height:auto" src="./app/images/dest/gh-pages/0v3nb1rd-github-io-shirts-lp.jpg" alt="screenshot-1"/>
 </a>
 </div>
