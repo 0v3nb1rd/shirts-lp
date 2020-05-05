@@ -1,4 +1,5 @@
 // VARIABLES SECTION
+$bg: #fcf5e6;
 $bgyellow: #ffbc2f;
 $bgred: #d82727;
 $bgblack: #212121; // Text Color
@@ -98,7 +99,7 @@ a {
 body {
   position: relative;
   min-width: 320px;
-  background: #fcf5e6;
+  background: $bg;
   font: 16px / 1.42 $roboto, Arial, sans-serif;
   color: $bgblack;
   -webkit-font-smoothing: antialiased;

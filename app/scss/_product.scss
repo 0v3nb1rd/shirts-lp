@@ -1,6 +1,7 @@
 .product {
   .hero {
     height: auto;
+    margin-bottom: 90px;
     min-height: 180px;
     background: url(../images/dest/decor/header-guys.png) center center / 21%
         no-repeat,
@@ -17,6 +18,28 @@
       &:nth-child(even) {
         margin-left: 4px;
       }
+    }
+  }
+  .article {
+    margin-bottom: 90px;
+  }
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    background: $bgyellow;
+    border: 10px solid $bgyellow;
+    &__image {
+      text-align: center;
+      width: 640px;
+    }
+    &__info {
+      width: 640px;
+      background: $bg;
+      height: 100%;
+      display: block;
     }
   }
 }
