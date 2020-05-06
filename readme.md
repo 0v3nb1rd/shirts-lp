@@ -9,11 +9,11 @@
 <b>Screenshots:</b>
 <div style="width:200px;display:inline-block">
 <a href="#">
-	<img style="max-width:50%;height:auto" src="./app/images/dest/gh-pages/index-html.jpg" alt="screenshot-1"/>
+	<img witdh="200px" src="./app/images/dest/gh-pages/index-html.jpg" alt="screenshot-1"/>
 </a>
 </div>
 <div style="width:200px;display:inline-block">
 <a href="#">
-	<img style="max-width:50%;height:auto" src="./app/images/dest/gh-pages/product-html.jpg" alt="screenshot-1"/>
+	<img witdh="200px" src="./app/images/dest/gh-pages/product-html.jpg" alt="screenshot-1"/>
 </a>
 </div>
