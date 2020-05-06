@@ -49,5 +49,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Isotope plugin -->
+  // Isotope product values -->
 });

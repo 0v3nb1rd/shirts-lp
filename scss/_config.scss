@@ -1,8 +1,10 @@
 // VARIABLES SECTION
+$bg: #fcf5e6;
 $bgyellow: #ffbc2f;
 $bgred: #d82727;
 $bgblack: #212121; // Text Color
 $titleFont: "Yanone Kaffeesatz", sans-serif;
+$lineStroke: #e0d9c8;
 
 // $accent: orange; // Accent Color
 $fontsize: 16px; // Body Font Size
@@ -98,7 +100,7 @@ a {
 body {
   position: relative;
   min-width: 320px;
-  background: #fcf5e6;
+  background: $bg;
   font: 16px / 1.42 $roboto, Arial, sans-serif;
   color: $bgblack;
   -webkit-font-smoothing: antialiased;
@@ -114,6 +116,7 @@ body {
   font-size: 24px;
   background-color: $bgblack;
   color: $bgyellow;
+  transition: all 0.1s ease;
   &:hover {
     background-color: $bgred;
     color: #fff;
