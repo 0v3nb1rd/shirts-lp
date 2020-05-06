@@ -41,45 +41,191 @@
             <div class="item__image">
               <img src="./images/dest/tshirts/tshirt_07.png" alt="tshirt-1" />
             </div>
-            <div class="item__info"></div>
+
+            <div class="item__header">
+              <div class="item__info">
+                <h1 class="item__title">
+                  <span>Футболка Hurley</span>
+                  <span>Rick and Morty</span>
+                </h1>
+                <div class="item__price">2 000</div>
+              </div>
+
+              <ul class="item__main-list">
+                <li class="item__main-item">Состав: Хлопок 100%</li>
+                <li class="item__main-item">Сезон: Мульти</li>
+                <li class="item__main-item">Цвет: Черный</li>
+                <li class="item__main-item">Узор: Ресунки и надписи</li>
+                <li class="item__main-item">Страна производства: Украина</li>
+                <li class="item__main-item">Артикул: MA002EVD0EZ6</li>
+              </ul>
+
+              <form class="item__form">
+                <ul class="item__size-list">
+                  <li class="item__size-item item__size-item--hide">
+                    <input type="radio" name="size" id="size-XXS" />
+                    <label for="size-XXS">XXS</label>
+                  </li>
+
+                  <li class="item__size-item item__size-item--hide">
+                    <input type="radio" name="size" id="size-XS" />
+                    <label for="size-XS">XS</label>
+                  </li>
+
+                  <li class="item__size-item">
+                    <input type="radio" name="size" id="size-S" />
+                    <label for="size-S">S</label>
+                  </li>
+
+                  <li class="item__size-item">
+                    <input type="radio" name="size" id="size-M" />
+                    <label for="size-M">M</label>
+                  </li>
+
+                  <li class="item__size-item item__size-item--active">
+                    <input type="radio" name="size" id="size-L" checked />
+                    <label for="size-L">L</label>
+                  </li>
+
+                  <li class="item__size-item">
+                    <input type="radio" name="size" id="size-XL" />
+                    <label for="size-XL">XL</label>
+                  </li>
+                  <li class="item__size-item">
+                    <input type="radio" name="size" id="size-2XL" />
+                    <label for="size-2XL">2XL</label>
+                  </li>
+                  <li class="item__size-item item__size-item--hide">
+                    <input type="radio" name="size" id="size-3XL" />
+                    <label for="size-3XL">3XL</label>
+                  </li>
+                </ul>
+
+                <ul class="item__color-list">
+                  <li
+                    class="item__size-item item__size-item--bleck item__size-item--hide"
+                  >
+                    <input type="radio" name="color" id="color-bleck" />
+                    <label for="color-bleck"></label>
+                  </li>
+
+                  <li
+                    class="item__size-item item__size-item--white item__size-item--hide"
+                  >
+                    <input type="radio" name="color" id="color-white" />
+                    <label for="color-white"></label>
+                  </li>
+
+                  <li class="item__size-item item__size-item--green">
+                    <input type="radio" name="color" id="color-green" checked />
+                    <label for="color-green"></label>
+                  </li>
+
+                  <li class="item__size-item item__size-item--blue">
+                    <input type="radio" name="color" id="color-blue" />
+                    <label for="color-blue"></label>
+                  </li>
+
+                  <li
+                    class="item__size-item item__size-item--red item__size-item--active"
+                  >
+                    <input type="radio" name="color" id="color-red" />
+                    <label for="color-red"></label>
+                  </li>
+                </ul>
+
+                <button type="submit" class="btn item__btn">Купить</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="products">
+      <section class="values">
         <div class="container">
           <ul class="filter">
             <li class="filter__item filter__item--active">
-              <a href="#" data-filter="popular" class="filter__link"
+              <a href="#" data-filter="description" class="filter__link"
                 >Описание</a
               >
             </li>
             <li class="filter__item">
-              <a href="#" data-filter="new" class="filter__link"
+              <a href="#" data-filter="sizes" class="filter__link"
                 >Таблица розмеров</a
               >
             </li>
             <li class="filter__item">
-              <a href="#" data-filter="bestsellers" class="filter__link"
+              <a href="#" data-filter="delivery" class="filter__link"
                 >Условия доставки</a
               >
             </li>
             <li class="filter__item">
-              <a href="#" data-filter="specials" class="filter__link"
-                >О бренде</a
-              >
+              <a href="#" data-filter="about" class="filter__link">О бренде</a>
             </li>
           </ul>
 
           <ul class="products__list">
-            <li class="products__item popular new bestsellers">
+            <li class="products__item description">
+              <ul class="products__info">
+                <li class="products__itm">
+                  <svg class="products__icon">
+                    <use
+                      xlink:href="./images/src/icons-sprite.svg#washing_01"
+                    ></use>
+                  </svg>
+                  <span>Стирать при температуре 30˚С</span>
+                </li>
+                <li class="products__itm">
+                  <svg class="products__icon">
+                    <use
+                      xlink:href="./images/src/icons-sprite.svg#washing_02"
+                    ></use>
+                  </svg>
+                  <span>Не отбеливать</span>
+                </li>
+                <li class="products__itm">
+                  <svg class="products__icon">
+                    <use
+                      xlink:href="./images/src/icons-sprite.svg#washing_03"
+                    ></use>
+                  </svg>
+                  <span>Гладить теплым утюгом с внутренней стороны</span>
+                </li>
+                <li class="products__itm">
+                  <svg class="products__icon">
+                    <use
+                      xlink:href="./images/src/icons-sprite.svg#washing_04"
+                    ></use>
+                  </svg>
+                  <span>Не подвергать химической чистке</span>
+                </li>
+                <li class="products__itm">
+                  <svg class="products__icon">
+                    <use
+                      xlink:href="./images/src/icons-sprite.svg#washing_05"
+                    ></use>
+                  </svg>
+                  <span>Не сушить в барабане</span>
+                </li>
+              </ul>
+              <div class="products__descriptions">
+                <p>
+                  Футболка из приятной ткани с качественным принтом, это одна из
+                  самых универсальных вещей в гардеробе. Она подойдет и для
+                  занятий спортом, и для прогулок, и для работы, если разрешен
+                  свободный дресс-код.
+                </p>
+              </div>
+            </li>
+
+            <li class="products__item sizes">
               <div class="products__price">
                 <div class="products__price-amount">1800</div>
               </div>
               <div class="products__content">
                 <img
                   class="products__img"
-                  src="./images/dest/tshirts/tshirt_01.png"
+                  src="./images/dest/tshirts/tshirt_00.png"
                   alt="bo-jack tshirt"
                 />
                 <div class="products__desc">
@@ -90,98 +236,46 @@
                 </div>
               </div>
             </li>
-            <li class="products__item popular specials soon">
-              <div class="products__price">
-                <div class="products__price-amount">1800</div>
-              </div>
-              <div class="products__content">
+
+            <li class="products__item delivery">
+              <div class="products__info">
                 <img
-                  class="products__img"
-                  src="./images/dest/tshirts/tshirt_02.png"
-                  alt="bo-jack tshirt"
+                  class="products__logo"
+                  src="./images/dest/content/logos/express.png"
+                  alt="Herly"
                 />
-                <div class="products__desc">
-                  <div class="products__desc-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </div>
-                  <a href="#" class="btn">Подробнее</a>
-                </div>
+              </div>
+              <div class="products__descriptions">
+                <p>
+                  Доставка по России и странам Ближнего Зарубежья (Украина,
+                  Белорусия, Молдавия, Польша, Эстония, Болгария, Румыния,
+                  Чехия, Словакия, Венгрия и т.д.), всего 400 руб. Мы так же
+                  доставляем в США, Японию, Австралию, Англию, Италию, Испанию и
+                  т.д. , стоимость доставки около 600 руб. (Цена приведена для
+                  ориентира и может отличаться в зависимости от дальности и веса
+                  посылки)
+                </p>
               </div>
             </li>
-            <li
-              class="products__item products__item--color-black products__item--size-double popular new bestsellers"
-            >
-              <div class="products__price">
-                <div class="products__price-amount">1800</div>
-              </div>
-              <div class="products__content">
+
+            <li class="products__item about">
+              <div class="products__info">
                 <img
-                  class="products__img"
-                  src="./images/dest/tshirts/tshirt_03.png"
-                  alt="bo-jack tshirt"
+                  class="products__logo"
+                  src="./images/dest/content/logos/harley.png"
+                  alt="Herly"
                 />
-                <div class="products__desc">
-                  <div class="products__desc-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </div>
-                  <a href="#" class="btn">Подробнее</a>
-                </div>
               </div>
-            </li>
-            <li
-              class="products__item products__item--color-black products__item--size-double popular soon"
-            >
-              <div class="products__price">
-                <div class="products__price-amount">1800</div>
-              </div>
-              <div class="products__content">
-                <img
-                  class="products__img"
-                  src="./images/dest/tshirts/tshirt_04.png"
-                  alt="bo-jack tshirt"
-                />
-                <div class="products__desc">
-                  <div class="products__desc-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </div>
-                  <a href="#" class="btn">Подробнее</a>
-                </div>
-              </div>
-            </li>
-            <li class="products__item popular new specials soon">
-              <div class="products__price">
-                <div class="products__price-amount">1800</div>
-              </div>
-              <div class="products__content">
-                <img
-                  class="products__img"
-                  src="./images/dest/tshirts/tshirt_05.png"
-                  alt="bo-jack tshirt"
-                />
-                <div class="products__desc">
-                  <div class="products__desc-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </div>
-                  <a href="#" class="btn">Подробнее</a>
-                </div>
-              </div>
-            </li>
-            <li class="products__item popular specials bestsellers">
-              <div class="products__price">
-                <div class="products__price-amount">1800</div>
-              </div>
-              <div class="products__content">
-                <img
-                  class="products__img"
-                  src="./images/dest/tshirts/tshirt_06.png"
-                  alt="bo-jack tshirt"
-                />
-                <div class="products__desc">
-                  <div class="products__desc-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                  </div>
-                  <a href="#" class="btn">Подробнее</a>
-                </div>
+              <div class="products__descriptions">
+                <p>
+                  Марка Hurley основана на любви к океану с его постоянством в
+                  этом изменчивом мире. Она осуществляет мечты молодого
+                  поколения, сочетая музыку и искусство в дизайне одежды, обуви
+                  и аксессуаров. Наполненная духом пляжной культуры продукция
+                  Hurley предлагает новое восприятие комфорта и
+                  индивидуальности. Hurley выбирает только тот, кто страстно
+                  влюблён в свободу.
+                </p>
               </div>
             </li>
           </ul>
@@ -335,5 +429,36 @@
         </div>
       </footer>
     </div>
+    <!-- <script src="js/app.min.js"></script> -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script>
+      (function () {
+        const elem = document.querySelector(".products__list");
+        const iso = new Isotope(elem, {
+          itemSelector: ".products__item",
+          filter: ".description",
+        });
+        const controllsFilter = document.querySelectorAll(".filter__link");
+        const activeClassFilter = "filter__item--active";
+        controllsFilter.forEach((ctr) => {
+          ctr.addEventListener("click", (e) => {
+            e.preventDefault();
+
+            const filterName = ctr.getAttribute("data-filter");
+
+            controllsFilter.forEach((link) => {
+              link.closest(".filter__item").classList.remove(activeClassFilter);
+            });
+
+            ctr.closest(".filter__item").classList.add(activeClassFilter);
+
+            iso.arrange({
+              filter: `.${filterName}`,
+            });
+          });
+        });
+      })();
+    </script>
   </body>
 </html>

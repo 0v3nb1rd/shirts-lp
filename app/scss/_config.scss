@@ -4,6 +4,7 @@ $bgyellow: #ffbc2f;
 $bgred: #d82727;
 $bgblack: #212121; // Text Color
 $titleFont: "Yanone Kaffeesatz", sans-serif;
+$lineStroke: #e0d9c8;
 
 // $accent: orange; // Accent Color
 $fontsize: 16px; // Body Font Size
@@ -115,6 +116,7 @@ body {
   font-size: 24px;
   background-color: $bgblack;
   color: $bgyellow;
+  transition: all 0.1s ease;
   &:hover {
     background-color: $bgred;
     color: #fff;
