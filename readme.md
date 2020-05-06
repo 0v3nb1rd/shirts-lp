@@ -7,13 +7,7 @@
 	<li>GULP</li>
 </ul>
 <b>Screenshots:</b>
-<div style="width:200px;display:inline-block">
-<a href="#">
-	<img witdh="200px" src="./app/images/dest/gh-pages/index-html.jpg" alt="screenshot-1"/>
-</a>
-</div>
-<div style="width:200px;display:inline-block">
-<a href="#">
-	<img witdh="200px" src="./app/images/dest/gh-pages/product-html.jpg" alt="screenshot-1"/>
-</a>
-</div>
+<p float="left">
+  <img width="45%" src="./app/images/dest/gh-pages/index-html.jpg" />
+  <img width="45%" align="top" src="./app/images/dest/gh-pages/product-html.jpg" alt="screenshot-1" /> 
+</p>
